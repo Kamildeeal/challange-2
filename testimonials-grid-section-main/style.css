@@ -1,0 +1,183 @@
+html {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #ecf2f8;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+.testimonial-1 {
+    background-color: #7541c8;
+    padding: 25px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.quote {
+    position: absolute;
+    right: 10%;
+    top: 0;
+    z-index: 1;
+}
+
+.img-contener {
+    display: flex;
+    align-items: center;
+}
+
+.img-daniel {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #9c76d7; 
+    margin-right: 10px;
+}
+
+.name-1 {
+    display:flex;
+    color: #cfcfcf;
+    margin: 0px;
+    font-size: 0.95rem;
+    
+}
+
+.under-name1 {
+    display:flex;
+    color: #cfcfcf;
+    opacity: 0.5;
+    margin: 0px;
+    font-size: 0.8rem;   
+    z-index: 2;
+}
+
+.p-main {
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 0px;
+    font-weight: bold;
+    position: relative;
+    z-index:2;
+}
+
+.p-review {
+    color: #cfcfcf;
+    font-size: 0.95rem;
+    opacity: 0.7;
+    z-index: 2;
+}
+
+.testimonial-2 {
+    background-color: #48556a;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top:20px;
+}
+.img-jonathan {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #cfcfcf; 
+    margin-right: 10px;
+}
+
+.testimonial-3 {
+    background-color:white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top:20px;
+}
+
+.p-main3 {
+    color: #48556a;
+    font-size: 1.1rem;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.p-review3 {
+    color: #19212e;
+    font-size: 0.95rem;
+    opacity: 0.7;
+}
+
+.name-3 {
+    display:flex;
+    color: #19212e;
+    margin: 0px;
+    font-size: 0.95rem;
+}
+
+.under-name3 {
+    display:flex;
+    color: #19212e;
+    opacity: 0.5;
+    margin: 0px;
+    font-size: 0.8rem;   
+}
+
+.testimonial-4 {
+    background-color: #19212e;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top:20px;
+}
+
+.testimonial-5 {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top:20px;
+}
+
+@media (min-width: 1440px) {
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+    
+.main-contaner {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 50px 100px;
+}
+.desk1 {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+
+}
+
+.testimonial-5 {
+    margin-left: 20px;
+    align-self: stretch;
+    margin-top: 0px;
+    flex: 1;
+}
+.desk2 {
+    display:flex;
+    flex-direction: row;
+    
+}
+.desk3 {
+    display:flex;
+    flex-direction: row;
+}
+.testimonial-2 {
+    margin-top: 0px;
+}
+
+.testimonial-3 {
+    margin-right: 20px;
+}
+.testimonial-1 {
+    margin-right: 20px;
+}
+    
+
+}
